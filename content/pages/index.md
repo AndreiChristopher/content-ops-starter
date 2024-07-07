@@ -234,7 +234,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Uma relação mútua de respeito com cada cliente
     items:
       - title: Feature Item One
         tagline: This is the tagline
