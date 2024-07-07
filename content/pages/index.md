@@ -238,7 +238,7 @@ sections:
     items:
       - title: Qualidade excepcional
         tagline: Excelência
-        subtitle: Qualidade excepcional
+        subtitle: Alto padrão de execução de serviços
         text: |
           Alto padrão de execução de serviços
         image:
