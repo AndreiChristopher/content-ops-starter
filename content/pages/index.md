@@ -66,7 +66,7 @@ sections:
         text: >
           Prestamos consultoria em processos de fabricação, adequação às normas
           técnicas de segurança (NR12), projetos de estruturas metálicas (NBR
-          8800), estudos, ensaios, e análise de elementos finitos (FEA).
+          8800), e análise de elementos finitos (FEA).
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
