@@ -288,8 +288,8 @@ sections:
         tagline: Respeito
         subtitle: 'Ótimas relações, grandes parcerias'
         text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+          Através de uma boa convivência, criamos um vínculo corporativo
+          proporcionando grandes resultados.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
