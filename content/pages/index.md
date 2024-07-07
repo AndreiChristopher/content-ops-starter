@@ -263,8 +263,9 @@ sections:
       - title: Pontualidade
         tagline: Compromisso
         subtitle: Prazos mantidos geram satisfação
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+        text: >
+          Demonstramos respeito e responsabilidade para com o cliente através do
+          cumprimento da palavra.
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
