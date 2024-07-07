@@ -228,7 +228,7 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: List of features here
+      text: Alguns de nossos valores
       color: text-primary
       styles:
         self:
