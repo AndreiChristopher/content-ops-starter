@@ -91,10 +91,11 @@ sections:
               borderRadius: x-large
       - title: Projetos
         subtitle: Desenvolvimento de produtos
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Realizamos o desenvolvimento de produtos com as principais tecnologias
+          disponíveis no mercado, métodos de fabricação consolidados, e
+          documentação através desenhos técnicos e modelagem 3d de acordo com a
+          sua necessidade.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
