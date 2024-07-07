@@ -63,10 +63,10 @@ sections:
       - type: FeaturedItem
         title: Engenharia
         subtitle: Estudos e ensaios
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Prestamos consultoria em processos de fabricação, adequação às normas
+          técnicas de segurança (NR12), projetos de estruturas metálicas (NBR
+          8800), estudos, ensaios, e análise de elementos finitos (FEA).
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
