@@ -260,7 +260,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
+      - title: Pontualidade
         tagline: Compromisso
         subtitle: This is the item subtitle
         text: |
