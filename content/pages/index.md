@@ -62,7 +62,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Engenharia
-        subtitle: Numbers Done
+        subtitle: Estudos e ensaios
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
