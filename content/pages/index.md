@@ -237,7 +237,7 @@ sections:
     subtitle: Uma relação mútua de respeito com cada cliente
     items:
       - title: Feature Item One
-        tagline: This is the tagline
+        tagline: Excelência
         subtitle: This is the item subtitle
         text: |
           Follow the tutorial to build your first Netlify Create site.
