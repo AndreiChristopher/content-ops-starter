@@ -325,7 +325,7 @@ sections:
       text: Deixe aqui sua mensagem
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Retornaremos o mais rápido possível!
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
