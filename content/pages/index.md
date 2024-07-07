@@ -7,7 +7,7 @@ sections:
       text: 'Você idealiza, nós desenvolvemos'
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Daremos vida às suas ideias
     text: >
       A Netlify Create website is a git repo that you own. Every code commit is
       instantly reflected in the visual editor and since every visual edit is a
