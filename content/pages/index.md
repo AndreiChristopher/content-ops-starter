@@ -262,7 +262,7 @@ sections:
         type: FeaturedItem
       - title: Pontualidade
         tagline: Compromisso
-        subtitle: This is the item subtitle
+        subtitle: Prazos mantidos geram satisfação
         text: |
           Follow the tutorial to build your first awesome Netlify Create site.
         image:
