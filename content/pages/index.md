@@ -239,8 +239,9 @@ sections:
       - title: Qualidade excepcional
         tagline: Excelência
         subtitle: Alto padrão de execução de serviços
-        text: |
-          Alto padrão de execução de serviços
+        text: >
+          Nossa qualidade é um fator inegociável, faremos o melhor para entregar
+          o melhor. Sempre.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
