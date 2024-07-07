@@ -240,7 +240,7 @@ sections:
         tagline: Excelência
         subtitle: Qualidade excepcional
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          Alto padrão de execução de serviços
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
