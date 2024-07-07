@@ -92,10 +92,9 @@ sections:
       - title: Projetos
         subtitle: Desenvolvimento de produtos
         text: >
-          Realizamos o desenvolvimento de produtos com as principais tecnologias
-          disponíveis no mercado, métodos de fabricação consolidados, e
-          documentação através desenhos técnicos e modelagem 3d de acordo com a
-          sua necessidade.
+          Utilizamos as principais tecnologias disponíveis no mercado, métodos
+          de fabricação consolidados, e documentação através desenhos técnicos e
+          modelagem 3d de acordo com a sua necessidade.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
