@@ -303,7 +303,7 @@ sections:
           borderColor: border-dark
           borderStyle: dashed
           borderWidth: 1
-          borderRadius: none
+          borderRadius: large
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
