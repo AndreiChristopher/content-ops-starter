@@ -286,7 +286,7 @@ sections:
         type: FeaturedItem
       - title: Experiência do cliente
         tagline: Respeito
-        subtitle: This is the item subtitle
+        subtitle: 'Ótimas relações, grandes parcerias'
         text: >
           Learn from the tutorial and build your first awesome Netlify Create
           site.
