@@ -149,7 +149,7 @@ sections:
         type: Button
     badge:
       label: AC ENGENHARIA E PROJETOS
-      color: text-primary
+      color: text-dark
       styles:
         self:
           textAlign: center
