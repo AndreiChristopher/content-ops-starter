@@ -236,7 +236,7 @@ sections:
       type: TitleBlock
     subtitle: Uma relação mútua de respeito com cada cliente
     items:
-      - title: Feature Item One
+      - title: Qualidade excepcional
         tagline: Excelência
         subtitle: Qualidade excepcional
         text: |
