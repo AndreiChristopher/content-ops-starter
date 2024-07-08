@@ -35,6 +35,9 @@ sections:
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
+      styles:
+        self:
+          borderRadius: full
     badge:
       label: 'ENGENHARIA, PROJETOS E SERVIÇOS INDUSTRIAIS'
       color: text-primary
