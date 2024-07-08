@@ -127,7 +127,7 @@ sections:
           caldeiraria, serralheria, soldagem, manutenção industrial, e serviços
           gerais.
         image:
-          url: /images/icon3.svg
+          url: /images/Ícone3.svg
           altText: Featured icon three
           elementId: ''
           type: ImageBlock
