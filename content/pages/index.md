@@ -102,7 +102,7 @@ sections:
           de fabricação consolidados, e documentação através desenhos técnicos e
           modelagem 3d de acordo com a sua necessidade.
         image:
-          url: /images/icon2.svg
+          url: /images/ícone1.svg
           altText: Featured icon two
           elementId: ''
           type: ImageBlock
