@@ -38,6 +38,7 @@ sections:
       styles:
         self:
           borderRadius: none
+          borderColor: border-primary
     badge:
       label: 'ENGENHARIA, PROJETOS E SERVIÇOS INDUSTRIAIS'
       color: text-primary
