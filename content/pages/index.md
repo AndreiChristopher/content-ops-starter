@@ -31,7 +31,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: '/images/Allegheny_Ludlum_Steele_Corp,_Brackenridge,_Pa.jpg'
+      url: /images/shutterstock_290346557.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
