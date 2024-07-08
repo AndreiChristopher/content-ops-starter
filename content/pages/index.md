@@ -37,7 +37,7 @@ sections:
       type: ImageBlock
       styles:
         self:
-          borderRadius: full
+          borderRadius: none
     badge:
       label: 'ENGENHARIA, PROJETOS E SERVIÇOS INDUSTRIAIS'
       color: text-primary
