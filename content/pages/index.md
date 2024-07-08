@@ -31,10 +31,16 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: '/images/Allegheny_Ludlum_Steele_Corp,_Brackenridge,_Pa.jpg'
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
+      styles:
+        self:
+          borderRadius: none
+          borderColor: border-primary
+          borderWidth: 0
+          borderStyle: none
     badge:
       label: 'ENGENHARIA, PROJETOS E SERVIÇOS INDUSTRIAIS'
       color: text-primary
@@ -85,7 +91,7 @@ sections:
           type: ImageBlock
           altText: Lightning bolt symbol on red background
           elementId: ''
-          url: /images/icon1.svg
+          url: /images/Ícone2.svg
           styles:
             self:
               borderRadius: x-large
@@ -96,7 +102,7 @@ sections:
           de fabricação consolidados, e documentação através desenhos técnicos e
           modelagem 3d de acordo com a sua necessidade.
         image:
-          url: /images/icon2.svg
+          url: /images/ícone1.svg
           altText: Featured icon two
           elementId: ''
           type: ImageBlock
@@ -121,7 +127,7 @@ sections:
           caldeiraria, serralheria, soldagem, manutenção industrial, e serviços
           gerais.
         image:
-          url: /images/icon3.svg
+          url: /images/Ícone3.svg
           altText: Featured icon three
           elementId: ''
           type: ImageBlock
