@@ -39,7 +39,7 @@ sections:
         self:
           borderRadius: none
           borderColor: border-primary
-          borderWidth: 8
+          borderWidth: 2
           borderStyle: solid
     badge:
       label: 'ENGENHARIA, PROJETOS E SERVIÇOS INDUSTRIAIS'
