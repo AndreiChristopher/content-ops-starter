@@ -6805,26 +6805,5 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1"
      id="g2942"
-     transform="translate(3.3535535,-331.454)">
-    <path
-       style="fill:none;stroke:#c3cef8;stroke-width:0.0964272;stroke-opacity:1"
-       d="m -2.7408987,331.64685 -0.5785624,0.57857"
-       id="path2938" />
-    <path
-       style="fill:none;stroke:#c3cef8;stroke-width:0.0964272;stroke-opacity:1"
-       d="m -3.0301798,331.454 v 0.96427"
-       id="path2939" />
-    <path
-       style="fill:none;stroke:#c3cef8;stroke-width:0.0964272;stroke-opacity:1"
-       d="m -2.2587642,332.32184 -0.3857073,0.38571"
-       id="path2940" />
-    <path
-       style="fill:none;stroke:#c3cef8;stroke-width:0.0964272;stroke-opacity:1"
-       d="m -2.4516185,332.12899 -0.3857072,0.38571"
-       id="path2941" />
-    <path
-       style="fill:none;stroke:#c3cef8;stroke-width:0.0964272;stroke-opacity:1"
-       d="m -2.6444715,331.93614 -0.3857083,0.3857"
-       id="path2942" />
-  </g>
+     transform="translate(3.3535535,-331.454)" />
 </svg>
