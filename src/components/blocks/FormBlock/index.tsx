@@ -13,7 +13,7 @@ export default function FormBlock(props) {
 
     const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-
+        console.log("Formulário enviado!");
         const form = event.target as HTMLFormElement;
         const formData = new FormData(form);
 
@@ -29,7 +29,7 @@ export default function FormBlock(props) {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: params.toString(),
         });
-
+        console.log("Dados enviados!");
         // Sucesso e tratamento de erros...
     };
 
