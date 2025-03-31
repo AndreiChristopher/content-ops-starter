@@ -9,9 +9,9 @@ import { ComponentType } from 'react';
  * is bundled only when used.
  */
 
-export function getComponent(key: string): ComponentType {
+/*export function getComponent(key: string): ComponentType {
     return components[key];
-}
+}*/
 
 /**
  * Map of dynamically imported components.
@@ -30,7 +30,8 @@ export function getComponent(key: string): ComponentType {
  *     const Section = getComponent(section.__metadata.modelName);
  *     return <Section {...section} />;
  */
-const components = {
+const components: { [key: string]: ComponentType<any> } = {
+//const components = {
     AutoCompletePosts: dynamic(() => import('./blocks/SearchBlock/AutoCompletePosts')),
     CarouselSection: dynamic(() => import('./sections/CarouselSection')),
     CheckboxFormControl: dynamic(() => import('./blocks/FormBlock/CheckboxFormControl')),
