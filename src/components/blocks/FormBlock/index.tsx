@@ -1,11 +1,11 @@
+"use client";
+
 import * as React from 'react';
 import classNames from 'classnames';
 
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import SubmitButtonFormControl from './SubmitButtonFormControl';
-
-"use client";
 
 export default function FeedbackForm() { 
   const handleFormSubmit = async (event) => {
