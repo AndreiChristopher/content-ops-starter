@@ -53,9 +53,7 @@ export default function FormBlock(props) {
             )}
             name={elementId}
             id={elementId}
-            onSubmit={handleFormSubmit} => {
-    event.preventDefault();
-    console.log("🚀 Formulário enviado!");
+            onSubmit={handleFormSubmit}
             ref={formRef}
             data-sb-field-path={fieldPath}
         >
