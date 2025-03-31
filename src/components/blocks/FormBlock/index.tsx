@@ -32,7 +32,6 @@ export default function FormBlock(props) {
         console.log("Dados enviados!");*/
         // Sucesso e tratamento de erros...
 
-        <form name="contact" method="POST" data-netlify="true">
     };
 
     return (
@@ -54,6 +53,7 @@ export default function FormBlock(props) {
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
             name={elementId}
+            method="POST" data-netlify="true"
             id={elementId}
             onSubmit={handleFormSubmit}
             ref={formRef}
