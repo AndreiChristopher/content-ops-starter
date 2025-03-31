@@ -24,13 +24,15 @@ export default function FormBlock(props) {
             }
         });
 
-        await fetch("/public/_forms.html", {
+        /*await fetch("/public/_forms.html", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: params.toString(),
         });
-        console.log("Dados enviados!");
+        console.log("Dados enviados!");*/
         // Sucesso e tratamento de erros...
+
+        <form name="contact" method="POST" data-netlify="true">
     };
 
     return (
