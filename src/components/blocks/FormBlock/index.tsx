@@ -25,7 +25,8 @@ export default function FormBlock(props) {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: params.toString(),
-            };
+            });
+    }
 
     return (
         <div>
