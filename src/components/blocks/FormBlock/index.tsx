@@ -8,7 +8,11 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
-
+    await fetch("/__forms.html", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    });
     if (fields.length === 0) {
         return null;
     }
@@ -23,7 +27,6 @@ export default function FormBlock(props) {
 
     return (
         <form
-            action="/__forms.html" method="POST"
             className={classNames(
                 'sb-component',
                 'sb-component-block',
@@ -41,7 +44,6 @@ export default function FormBlock(props) {
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
             name={elementId}
-            data-netlify="true"
             id={elementId}
             onSubmit={handleSubmit}
             ref={formRef}
