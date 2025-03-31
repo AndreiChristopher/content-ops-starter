@@ -168,7 +168,3 @@ export default function FormBlock(props) {
         </div>
     );
 }
-            </form>
-        </div>
-    );
-}
