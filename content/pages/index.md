@@ -313,6 +313,7 @@ sections:
           hideLabel: true
           placeholder: Your message
           width: full
+          isRequired: true
       submitButton:
         type: SubmitButtonFormControl
         label: Submit
