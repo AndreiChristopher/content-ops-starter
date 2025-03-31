@@ -14,7 +14,7 @@ sections:
     actions:
       - label: Get started
         altText: ''
-        url: /
+        url: 'https://wa.me/5511945686844'
         showIcon: false
         icon: arrowRight
         iconPosition: right
