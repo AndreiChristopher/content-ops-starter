@@ -8,7 +8,7 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
-    await fetch("/__forms.html", {
+    fetch("/__forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
