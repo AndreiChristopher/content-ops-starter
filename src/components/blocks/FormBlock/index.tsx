@@ -6,8 +6,39 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import SubmitButtonFormControl from './SubmitButtonFormControl';
 
 "use client";
- 
-export function FeedbackForm() {
+
+export function FeedbackForm() { 
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    
+    const formData = new FormData(event.target);
+    
+    // Criar um novo URLSearchParams
+    const params = new URLSearchParams();
+    
+    // Iterar sobre o FormData e adicionar os pares chave-valor ao URLSearchParams
+    formData.forEach((value, key) => {
+      params.append(key, value.toString());
+    });
+
+    // Agora, você pode enviar os dados como URLSearchParams
+    await fetch("/__forms.html", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: params,
+    });
+
+    // Sucesso e tratamento de erros...
+  };
+
+  return (
+    <form onSubmit={handleFormSubmit}>
+      {/* Campos do formulário */}
+    </form>
+  );
+}
+
+/*export function FeedbackForm() {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
