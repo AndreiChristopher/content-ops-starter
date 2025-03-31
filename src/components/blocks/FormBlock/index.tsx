@@ -100,7 +100,7 @@ export default function FormBlock(props) {
         });
 
         try {
-            const response = await fetch("/_forms.html", {
+            const response = await fetch("/public/_forms.html", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: params.toString(),
