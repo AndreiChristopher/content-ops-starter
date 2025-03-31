@@ -22,7 +22,8 @@ export default function FormBlock(props) {
     }
 
     return (
-        <form action="https://api.web3forms.com/submit" method="POST"
+        <form
+            action="https://api.web3forms.com/submit" method="POST"
             className={classNames(
                 'sb-component',
                 'sb-component-block',
@@ -40,6 +41,7 @@ export default function FormBlock(props) {
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
             name={elementId}
+            data-netlify="true"
             id={elementId}
             onSubmit={handleSubmit}
             ref={formRef}
