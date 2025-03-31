@@ -332,16 +332,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-    actions:
-      - type: Link
-        label: Send
-        altText: Send
-        url: /
-        showIcon: true
-        icon: send
-        iconPosition: right
-        style: secondary
-        elementId: ''
+    actions: []
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
