@@ -10,11 +10,11 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 export function FeedbackForm() {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const FormData = new FormData(event.target);
     await fetch("/__forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
+      body: new URLSearchParams(FormData).toString(),
     });
     // Success and error handling ...
   };
