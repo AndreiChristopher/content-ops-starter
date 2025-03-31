@@ -13,12 +13,12 @@ export default function FormBlock(props) {
 export default function FeedbackForm() { 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-    
+
     const formData = new FormData(event.target);
-    
+
     // Criar um novo URLSearchParams
     const params = new URLSearchParams();
-    
+
     // Iterar sobre o FormData e adicionar os pares chave-valor ao URLSearchParams
     formData.forEach((value, key) => {
       params.append(key, value.toString());
