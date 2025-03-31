@@ -53,7 +53,9 @@ export default function FormBlock(props) {
             )}
             name={elementId}
             id={elementId}
-            onSubmit={handleFormSubmit}
+            onSubmit={handleFormSubmit} => {
+    event.preventDefault(); // Previne o comportamento padrão
+    console.log("🚀 Formulário enviado!");
             ref={formRef}
             data-sb-field-path={fieldPath}
         >
@@ -76,7 +78,6 @@ export default function FormBlock(props) {
             </div>
             {submitButton && (
                 <div className={classNames('mt-8', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}>
-                    <button type="submit">Testar Envio</button>
                     <SubmitButtonFormControl {...submitButton} {...(fieldPath && { 'data-sb-field-path': '.submitButton' })} />
                 </div>
             )}
