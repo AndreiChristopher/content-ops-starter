@@ -22,7 +22,7 @@ export default function FormBlock(props) {
             }
         });
     };
-     await fetch("/_forms.html", {
+      fetch("/_forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
