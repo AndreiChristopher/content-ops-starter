@@ -24,7 +24,7 @@ export default function FormBlock(props) {
             }
         });
 
-        await fetch("/__forms.html", {
+        await fetch("/_forms.html", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: params.toString(),
