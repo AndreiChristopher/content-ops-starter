@@ -24,14 +24,6 @@ export default function FormBlock(props) {
             }
         });
 
-        /*await fetch("/public/_forms.html", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: params.toString(),
-        });
-        console.log("Dados enviados!");*/
-        // Sucesso e tratamento de erros...
-
     };
 
     return (
@@ -53,15 +45,14 @@ export default function FormBlock(props) {
                         : undefined,
                     styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
                 )}
-                name={elementId}
+                name="Contato"
                 method="POST"
                 data-netlify="true"
                 id={elementId}
-                    //onSubmit={handleFormSubmit}
                     ref={formRef}
                     data-sb-field-path={fieldPath}
                 >
-                    <input type="hidden" name="form-name" value={elementId} />
+                    <input type="hidden" name="Contato" value="Contato" />
                     <div
                         className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
                     {...(fieldPath && { 'data-sb-field-path': '.fields' })}
