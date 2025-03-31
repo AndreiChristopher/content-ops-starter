@@ -100,7 +100,20 @@ export default function FormBlock(props) {
         });
 
         try {
-            const response = await fetch("/public/_forms.html", {
+            const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body: JSON.stringify({
+                access_key: "a928d100-8d19-4549-9a51-1aee6a908c5a",
+                name: e.target.name.value,
+                email: e.target.email.value,
+                message: e.target.message.value,
+            }),
+        });
+            /*const response = await fetch("/public/_forms.html", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: params.toString(),
@@ -111,8 +124,9 @@ export default function FormBlock(props) {
             }
 
             // Handle success (e.g., show success message)
-            console.log('Form submitted successfully');
-        } catch (error) {
+            console.log('Form submitted successfully');*/
+        }
+        catch (error) {
             console.error('Error:', error);
             // Handle error (e.g., show error message)
         }
