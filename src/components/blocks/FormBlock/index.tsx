@@ -24,7 +24,7 @@ export default function FormBlock(props) {
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: params.toString(),
             }
-        });
+        );
     };
 
     return (
