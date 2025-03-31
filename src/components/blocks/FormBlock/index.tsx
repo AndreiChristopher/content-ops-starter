@@ -5,7 +5,30 @@ import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import SubmitButtonFormControl from './SubmitButtonFormControl';
 
-export default function FormBlock(props) {
+"use client";
+ 
+export function FeedbackForm() {
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    await fetch("/__forms.html", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    });
+    // Success and error handling ...
+  };
+ 
+  return (
+    <form name="feedback" onSubmit={handleFormSubmit}>
+      <input type="hidden" name="form-name" value="feedback" />
+      <input name="name" type="text" placeholder="Name" required />
+      <input name="email" type="text" placeholder="Email (optional)" />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+/*export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
     fetch("/__forms.html", {
@@ -73,4 +96,4 @@ export default function FormBlock(props) {
             )}
         </form>
     );
-}
+}*/
