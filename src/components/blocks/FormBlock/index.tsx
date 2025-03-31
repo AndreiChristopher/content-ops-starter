@@ -8,33 +8,32 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import SubmitButtonFormControl from './SubmitButtonFormControl';
 
 export default function FormBlock(props) {
-    const formRef = React.createRef<HTMLFormElement>();
+    const formRef = React.useRef<HTMLFormElement>(null);
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
-export default function FeedbackForm() { 
-  const handleFormSubmit = async (event) => {
-    event.preventDefault();
 
-    const formData = new FormData(event.target);
+    const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
 
-    // Criar um novo URLSearchParams
-    const params = new URLSearchParams();
+        const form = event.target as HTMLFormElement;
+        const formData = new FormData(form);
 
-    // Iterar sobre o FormData e adicionar os pares chave-valor ao URLSearchParams
-    formData.forEach((value, key) => {
-      params.append(key, value.toString());
-    });
+        const params = new URLSearchParams();
+        formData.forEach((value, key) => {
+            if (typeof value === 'string') {
+                params.append(key, value);
+            }
+        });
 
-    // Agora, você pode enviar os dados como URLSearchParams
-    await fetch("/__forms.html", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: params,
-    });
+        await fetch("/__forms.html", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: params.toString(),
+        });
 
-    // Sucesso e tratamento de erros...
-  };
+        // Sucesso e tratamento de erros...
+    };
 
-  return (
+    return (
         <form
             className={classNames(
                 'sb-component',
@@ -56,7 +55,7 @@ export default function FeedbackForm() {
             id={elementId}
             onSubmit={handleFormSubmit}
             ref={formRef}
-            data-sb-field-path= {fieldPath}
+            data-sb-field-path={fieldPath}
         >
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
@@ -82,3 +81,4 @@ export default function FeedbackForm() {
             )}
         </form>
     );
+}
