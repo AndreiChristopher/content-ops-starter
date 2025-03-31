@@ -54,7 +54,7 @@ export default function FeedbackForm() {
             )}
             name={elementId}
             id={elementId}
-            onSubmit={handleSubmit}
+            onSubmit={handleFormSubmit}
             ref={formRef}
             data-sb-field-path= {fieldPath}
         >
