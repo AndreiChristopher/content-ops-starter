@@ -45,9 +45,10 @@ export default function FormBlock(props) {
                         : undefined,
                     styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
                 )}
-                name="Contato"
-                method="POST"
-                data-netlify="true"
+                await fetch("/_forms.html", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: new URLSearchParams(formData).toString(),
                 id={elementId}
                     ref={formRef}
                     data-sb-field-path={fieldPath}
