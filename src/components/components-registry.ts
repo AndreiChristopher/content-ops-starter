@@ -73,7 +73,8 @@ const components: { [key: string]: ComponentType<any> } = {
     FeaturedItemsSection: dynamic(() => import('./sections/FeaturedItemsSection')),
     FeaturedPeopleSection: dynamic(() => import('./sections/FeaturedPeopleSection')),
     FeaturedPostsSection: dynamic(() => import('./sections/FeaturedPostsSection')),
-    FormBlock: dynamic(() => import('./blocks/FormBlock')),
+    //FormBlock: dynamic(() => import('./blocks/FormBlock')),
+    FormBlock: ComponentType<any> = dynamic(() => import('./blocks/FormBlock'));
     GenericSection: dynamic(() => import('./sections/GenericSection')),
     ImageBlock: dynamic(() => import('./blocks/ImageBlock')),
     ImageGallerySection: dynamic(() => import('./sections/ImageGallerySection')),
