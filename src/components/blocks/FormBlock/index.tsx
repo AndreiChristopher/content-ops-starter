@@ -54,7 +54,8 @@ export default function FormBlock(props) {
                     styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
                 )}
                 name={elementId}
-                method="POST" data-netlify="true"
+                method="POST"
+                data-netlify="true"
                     <input type="hidden" name="form-name" value={elementId} />
                 id={elementId}
                     //onSubmit={handleFormSubmit}
