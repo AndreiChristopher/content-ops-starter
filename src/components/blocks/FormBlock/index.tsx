@@ -19,13 +19,13 @@ export default function FormBlock(props) {
         formData.forEach((value, key) => {
             if (typeof value === 'string') {
                 params.append(key, value);
+            }
+        }
         const response = await fetch("/_forms.html", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: params.toString(),
-            }
-        );
-    };
+            };
 
     return (
         <div>
