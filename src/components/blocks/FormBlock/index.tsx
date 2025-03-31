@@ -54,8 +54,9 @@ export default function FormBlock(props) {
             )}
             name={elementId}
             method="POST" data-netlify="true"
+                <input type="hidden" name="form-name" value={elementId} />
             id={elementId}
-            onSubmit={handleFormSubmit}
+            //onSubmit={handleFormSubmit}
             ref={formRef}
             data-sb-field-path={fieldPath}
         >
