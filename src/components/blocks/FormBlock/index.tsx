@@ -11,7 +11,7 @@ export default function FormBlock(props) {
     fetch("/__forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
+      body: new URLSearchParams(FormData).toString(),
     });
     if (fields.length === 0) {
         return null;
