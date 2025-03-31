@@ -12,9 +12,9 @@ sections:
       Trabalhamos com paixão a fim de entregar em alta performance todas as suas
       necessidades.
     actions:
-      - label: Get started
+      - label: WhatsApp
         altText: ''
-        url: /
+        url: 'https://wa.me/5511945686844'
         showIcon: false
         icon: arrowRight
         iconPosition: right
