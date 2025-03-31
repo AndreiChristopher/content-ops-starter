@@ -7,7 +7,7 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 
 "use client";
 
-export function FeedbackForm() { 
+export default function FeedbackForm() { 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
     
@@ -59,7 +59,8 @@ export function FeedbackForm() {
     </form>
   );
 }
-/*export default function FormBlock(props) {
+
+export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
     fetch("/__forms.html", {
