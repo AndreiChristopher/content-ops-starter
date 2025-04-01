@@ -107,10 +107,7 @@ export default function FormBlock(props) {
                 Accept: "application/json",
             },
             body: JSON.stringify({
-                access_key: "a928d100-8d19-4549-9a51-1aee6a908c5a",
-                name: e.target.name.value,
-                email: e.target.email.value,
-                message: e.target.message.value,
+                access_key: "a928d100-8d19-4549-9a51-1aee6a908c5a"
             }),
         });
             /*const response = await fetch("/public/_forms.html", {
