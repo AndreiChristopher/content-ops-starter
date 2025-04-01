@@ -180,7 +180,7 @@ sections:
           Nossa qualidade é um fator inegociável, faremos o melhor para entregar
           o melhor. Sempre.
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/Excelencia.jpg
           altText: Placeholder Image
           styles:
             self:
@@ -204,7 +204,7 @@ sections:
           Demonstramos respeito e responsabilidade para com o cliente através do
           cumprimento da palavra.
         image:
-          url: /images/abstract-feature2.svg
+          url: /images/Pontualidade.jpg
           altText: Placeholder image
           styles:
             self:
@@ -228,7 +228,7 @@ sections:
           Através de uma boa convivência, criamos um vínculo corporativo
           proporcionando grandes resultados.
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/Respeito.jpg
           altText: Placeholder image
           styles:
             self:
