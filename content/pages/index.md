@@ -18,18 +18,9 @@ sections:
         showIcon: false
         icon: arrowRight
         iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
         style: primary
         elementId: ''
-        type: Link
+        type: Button
     media:
       url: /images/shutterstock_290346557.jpg
       altText: Unblock your team boost your time to production preview
@@ -70,7 +61,7 @@ sections:
         title: Engenharia
         subtitle: Estudos e ensaios
         text: >
-          Prestamos consultoria em processos de fabricação, adequação às normas
+          Oferecemos consultoria em processos de fabricação, adequação às normas
           técnicas de segurança (NR12), projetos de estruturas metálicas (NBR
           8800), e análise de elementos finitos (FEA).
         actions: []
@@ -123,9 +114,9 @@ sections:
       - title: Serviços industriais
         subtitle: Mãos a obra
         text: >
-          Construção de estruturas metálicas em ferro e aço, serviços de
-          caldeiraria, serralheria, soldagem, manutenção industrial, e serviços
-          gerais.
+          Equipe de campo para construção de estruturas metálicas em aço.
+          Caldeiraria, serralheria, soldagem, manutenção industrial, e outros a
+          combinar.
         image:
           url: /images/Ícone3.svg
           altText: Featured icon three
@@ -273,9 +264,9 @@ sections:
       type: TitleBlock
     subtitle: Retornaremos o mais rápido possível!
     text: >
-      Um serviço de excelência começa através do primeiro contato, afinal a
-      primeira impressão é a que fica, certo? Envie sua mensagem e iniciaremos
-      sua nova experiência o mais rápido possível.
+      Um serviço de excelência inicia-se através do contato, afinal a primeira
+      impressão é a que fica, certo? Envie sua mensagem e iniciaremos sua nova
+      experiência o mais rápido possível.
     badge:
       label: ENTRE EM CONTATO
       color: text-primary
@@ -297,26 +288,26 @@ sections:
           name: name
           label: Name
           hideLabel: true
-          placeholder: Your name
+          placeholder: Seu nome
           isRequired: true
           width: full
         - type: EmailFormControl
           name: email
           label: Email
           hideLabel: true
-          placeholder: Your email
+          placeholder: Seu e-mail
           isRequired: true
           width: full
         - type: TextareaFormControl
           name: message
           label: Message
           hideLabel: true
-          placeholder: Your message
+          placeholder: Sua mensagem
           width: full
           isRequired: true
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Enviar
         showIcon: false
         icon: arrowRight
         iconPosition: right
