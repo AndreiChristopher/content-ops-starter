@@ -327,6 +327,7 @@ sections:
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
+    elementId: contato
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
