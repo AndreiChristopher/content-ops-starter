@@ -6,28 +6,40 @@
     },
     "text": "",
     "primaryLinks": {
-        "title": "Product",
-        "links": [],
+        "title": " ",
+        "links": [
+            {
+                "type": "Link",
+                "label": " ",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ],
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Company",
-        "links": [],
+        "title": " ",
+        "links": [
+            {
+                "type": "Link",
+                "label": "",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ],
         "type": "FooterLinksGroup"
     },
     "socialLinks": [
-        {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
-            "type": "Social"
-        },
-        {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
         {
             "altText": "LinkedIn link",
             "url": "https://www.linkedin.com/company/netlify",
@@ -35,9 +47,9 @@
             "type": "Social"
         },
         {
-            "altText": "Email link",
+            "altText": "Instagramlink",
             "url": "/",
-            "icon": "mail",
+            "icon": "instagram",
             "type": "Social"
         }
     ],
@@ -61,5 +73,6 @@
     ],
     "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
     "colors": "bg-dark-fg-light",
-    "type": "Footer"
+    "type": "Footer",
+    "title": ""
 }

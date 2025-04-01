@@ -11,6 +11,9 @@ sections:
     text: >
       Trabalhamos com paixão a fim de entregar em alta performance todas as suas
       necessidades.
+
+
+      Contate-nos!
     actions:
       - label: WhatsApp
         altText: ''
@@ -324,6 +327,7 @@ sections:
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
+    elementId: contato
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
