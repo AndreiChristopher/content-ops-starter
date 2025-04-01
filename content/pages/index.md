@@ -123,9 +123,9 @@ sections:
       - title: Serviços industriais
         subtitle: Mãos a obra
         text: >
-          Construção de estruturas metálicas em ferro e aço, serviços de
-          caldeiraria, serralheria, soldagem, manutenção industrial, e serviços
-          gerais.
+          Equipe de campo para construção de estruturas metálicas em aço.
+          Caldeiraria, serralheria, soldagem, manutenção industrial, e outros a
+          combinar.
         image:
           url: /images/Ícone3.svg
           altText: Featured icon three
