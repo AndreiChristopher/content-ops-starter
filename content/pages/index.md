@@ -71,7 +71,7 @@ sections:
         subtitle: Estudos e ensaios
         text: >
           Oferecemos consultoria em processos de fabricação, adequação às normas
-          técnicas de segurança (NR12), cálculos para estruturas metálicas (NBR
+          técnicas de segurança (NR12), projetos de estruturas metálicas (NBR
           8800), e análise de elementos finitos (FEA).
         actions: []
         elementId: null
