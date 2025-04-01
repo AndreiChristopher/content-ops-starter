@@ -15,7 +15,7 @@
     "secondaryLinks": [
         {
             "label": "Log in",
-            "url": "/",
+            "url": "/https://app.netlify.com/teams/andreichristopher/sites",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
