@@ -228,7 +228,7 @@ sections:
           Através de uma boa convivência, criamos um vínculo corporativo
           proporcionando grandes resultados.
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/Respeito.jpg
           altText: Placeholder image
           styles:
             self:
