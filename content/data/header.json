@@ -15,7 +15,7 @@
     "secondaryLinks": [
         {
             "label": "Log in",
-            "url": "/https://app.netlify.com/",
+            "url": "https://app.netlify.com/",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
