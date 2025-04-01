@@ -180,7 +180,7 @@ sections:
           Nossa qualidade é um fator inegociável, faremos o melhor para entregar
           o melhor. Sempre.
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/Excelencia.jpg
           altText: Placeholder Image
           styles:
             self:
