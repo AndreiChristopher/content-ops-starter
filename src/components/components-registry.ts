@@ -13,7 +13,7 @@ export function getComponent(key: string): ComponentType {
     return components[key];
 }
 
-/**
+/*
  * Map of dynamically imported components.
  *
  * The mapping key of a dynamically imported component is the model name describing the props of that component.
@@ -28,8 +28,8 @@ export function getComponent(key: string): ComponentType {
  * data it needs to render, and get back the component that can render that type of data:
  *
  *     const Section = getComponent(section.__metadata.modelName);
- *     return <Section {...section} />;
- */
+ *     return <Section {...section} />;*/
+ 
 const components = {
     AutoCompletePosts: dynamic(() => import('./blocks/SearchBlock/AutoCompletePosts')),
     CarouselSection: dynamic(() => import('./sections/CarouselSection')),
