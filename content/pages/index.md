@@ -204,7 +204,7 @@ sections:
           Demonstramos respeito e responsabilidade para com o cliente através do
           cumprimento da palavra.
         image:
-          url: /images/abstract-feature2.svg
+          url: /images/Pontualidade.jpg
           altText: Placeholder image
           styles:
             self:
