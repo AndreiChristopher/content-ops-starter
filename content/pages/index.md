@@ -304,7 +304,7 @@ sections:
           name: email
           label: Email
           hideLabel: true
-          placeholder: Your email
+          placeholder: Seu e-mail
           isRequired: true
           width: full
         - type: TextareaFormControl
