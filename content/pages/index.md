@@ -273,9 +273,9 @@ sections:
       type: TitleBlock
     subtitle: Retornaremos o mais rápido possível!
     text: >
-      Um serviço de excelência começa através do primeiro contato, afinal a
-      primeira impressão é a que fica, certo? Envie sua mensagem e iniciaremos
-      sua nova experiência o mais rápido possível.
+      Um serviço de excelência inicia-se através do contato, afinal a primeira
+      impressão é a que fica, certo? Envie sua mensagem e iniciaremos sua nova
+      experiência o mais rápido possível.
     badge:
       label: ENTRE EM CONTATO
       color: text-primary
