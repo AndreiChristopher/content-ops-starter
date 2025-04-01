@@ -17,7 +17,7 @@ sections:
         url: 'https://wa.me/5511945686844'
         showIcon: false
         icon: arrowRight
-        iconPosition: left
+        iconPosition: right
         style: secondary
         elementId: ''
         type: Button
