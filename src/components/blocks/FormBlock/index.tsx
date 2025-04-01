@@ -181,7 +181,8 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 export default function FormBlock(props) {
     const formRef = React.useRef<HTMLFormElement>(null);
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
-
+    const [message, setMessage] = React.useState<string | null>(null); //feedback
+    const [isSuccess, setIsSuccess] = React.useState<boolean | null>(null); //feedback
     const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         console.log("Formulário enviado!");
@@ -197,37 +198,48 @@ export default function FormBlock(props) {
             }
         });
 
-        try {
-            // Envia os dados para o Web3Forms
-            const response = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                },
-                body: JSON.stringify({
-                    access_key: "a928d100-8d19-4549-9a51-1aee6a908c5a",
-                    name: formValues.name,        // Supondo que 'name' seja um campo no seu formulário
-                    email: formValues.email,      // Supondo que 'email' seja um campo no seu formulário
-                    message: formValues.message,  // Supondo que 'message' seja um campo no seu formulário
-                }),
-            });
-
-            if (response.ok) {
-                console.log('Formulário enviado com sucesso!');
-                // Aqui você pode adicionar lógica para mostrar uma mensagem de sucesso
-            } else {
-                throw new Error('Falha ao enviar o formulário');
+            try {
+                // Envia os dados para o Web3Forms
+                const response = await fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        Accept: "application/json",
+                    },
+                    body: JSON.stringify({
+                        access_key: "a928d100-8d19-4549-9a51-1aee6a908c5a",
+                        name: formValues.name,        // Supondo que 'name' seja um campo no seu formulário
+                        email: formValues.email,      // Supondo que 'email' seja um campo no seu formulário
+                        message: formValues.message,  // Supondo que 'message' seja um campo no seu formulário
+                    }),
+                });
+    
+                if (response.ok) {
+            setIsSuccess(true);
+            setMessage("Formulário enviado com sucesso!");
+            form.reset(); // Limpa os campos do formulário
+                } else {
+                    throw new Error('Falha ao enviar o formulário');
+                }
             }
-
-        } catch (error) {
-            console.error('Erro:', error);
-            // Lógica para mostrar uma mensagem de erro
+            catch (error) {
+        console.error('Erro:', error);
+        setIsSuccess(false);
+        setMessage("Ocorreu um erro ao enviar o formulário. Tente novamente.");
+    }
         }
-    };
+        };
 
     return (
         <div>
+            {message && (
+    <div className={classNames(
+        "p-4 rounded-md text-center mb-4",
+        isSuccess ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"
+    )}>
+        {message}
+    </div>
+)}
             <form
                 className={classNames(
                     'sb-component',
