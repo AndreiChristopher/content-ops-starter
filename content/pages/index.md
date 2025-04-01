@@ -139,7 +139,7 @@ sections:
         type: FeaturedItem
     actions: []
     badge:
-      label: AC ENGENHARIA E PROJETOS
+      label: A.C. ENGENHARIA E PROJETOS
       color: text-primary
       styles:
         self:
