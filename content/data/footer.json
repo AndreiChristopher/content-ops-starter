@@ -41,7 +41,7 @@
     },
     "socialLinks": [
         {
-            "altText": "Twitter link",
+            "altText": "WhatsApp link",
             "url": "https://twitter.com/netlify",
             "icon": "twitter",
             "type": "Social"
