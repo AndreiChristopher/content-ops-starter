@@ -24,6 +24,15 @@ sections:
         style: primary
         elementId: ''
         type: Button
+      - type: Link
+        label: Send email
+        altText: Play
+        url: /contato
+        showIcon: true
+        icon: mail
+        iconPosition: right
+        style: secondary
+        elementId: ''
     media:
       url: /images/shutterstock_290346557.jpg
       altText: Unblock your team boost your time to production preview
