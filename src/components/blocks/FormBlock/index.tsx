@@ -226,8 +226,7 @@ export default function FormBlock(props) {
         console.error('Erro:', error);
         setIsSuccess(false);
         setMessage("Ocorreu um erro ao enviar o formulário. Tente novamente.");
-    }
-        }
+            }
         };
 
     return (
